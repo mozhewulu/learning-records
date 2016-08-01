@@ -19,13 +19,11 @@
 .fruit-n li{position:relative;
            float:left;
            font-size:20px;
-
-           overflow:hidden;
            left:20%;
            padding:8px 10px;}
 
 .fruit-n li a:link{text-decoration:none;
-                   color:#ffffff;}
+                   color:#fff;}
 
 .fruit-n li a:hover{color:#000;}
 
