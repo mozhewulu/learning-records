@@ -60,6 +60,25 @@
            text-align: center;
            padding:50px 20px 10px 20px;
 }
+.box{
+            position:absolute;
+            background-color:#eee;
+            color:#fff;
+            padding:10px;
+            border:#999 solid 1px;
+            border-radius: 5px;
+            box-shadow:2px 2px 4px #ccc;
+            width:400px;
+            height: 500px;
+        }
+.box iframe{
+            margin:0px;
+            padding:0px;
+            border:none;
+            background-color: #FFF;
+            width:inherit;
+            height:inherit;
+        }
 
 .fruit-i ul li p:hover{color:red;}
 
