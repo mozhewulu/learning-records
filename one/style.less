@@ -1,0 +1,120 @@
+@color0: #ffffff;
+@width2: 960px;
+
+* {
+	font-family:"微软雅黑";
+	margin:0;
+	padding:0;
+}
+.fruit-w {
+	font-size:25px;
+	height:50px;
+	margin:0 auto;
+	text-align: left;
+	width:@width2;
+}
+.fruit-n {
+	background: url(http://iknowpc.bdimg.com/static/common/widget/menu/img/menu-bg_83f126e.png) repeat-x;
+	height:40px;
+	overflow: hidden;
+	li {
+		display:inline-block;
+		font-size:18px;
+		line-height: 40px;
+		text-align: center;
+		&:not( {
+			first-child) {
+				margin-left: 0;
+				text-align: center;
+				width:97px;
+			}
+		}
+		&:hover {
+			background-color: #36CA61;
+		}
+		a {
+			&:visited {
+				color:@color0;
+				text-decoration:none;
+			}
+			&:link {
+				color:@color0;
+				text-decoration:none;
+			}
+			&:hover {
+				color:#ABC796;
+			}
+		}
+	}
+	div {
+		&:first-child {
+			padding-left: 0;
+			text-align: left;
+			width:67px;
+		}
+	}
+}
+#demo {
+	margin:0 auto;
+	width:@width2;
+}
+.fruit-i {
+	margin:0 auto;
+	overflow: hidden;
+	padding-top: 50px;
+	width:@width2;
+	li {
+		animation: searchLights 1s ease-in 1s infinite;
+		border: 1px solid #bcbcbc;
+		display:inline-block;
+		padding-bottom: 100px;
+		text-align: center;
+		width:28%;
+		&:nth-child(2) {
+			margin:0 7%;
+		}
+	}
+	ul {
+		li {
+			p {
+				&:hover {
+					color:red;
+				}
+			}
+		}
+	}
+}
+.fruit-i-n {
+	border:1px solid @color0;
+	height:180px;
+	padding:50px 20px 10px 20px;
+	width:150px;
+}
+.box {
+	background-color:#eeeeee;
+	border-radius: 5px;
+	border:#999999 solid 1px;
+	box-shadow:2px 2px 4px #cccccc;
+	color:@color0;
+	height: 500px;
+	padding:10px;
+	position:absolute;
+	width:400px;
+	iframe {
+		background-color: @color0;
+		border:none;
+		height:inherit;
+		margin:0px;
+		padding:0px;
+		width:inherit;
+	}
+}
+.fruit-e {
+	bottom: 0;
+	padding-bottom: 8px;
+	position: fixed;
+	width: 100%;
+	p {
+		padding:8px;
+		text-align: center;
+	}

@@ -2,7 +2,7 @@ function $(id){
 	return typeof id==='string'?document.getElementById(id):id;
 }
 window.onload=function(){
-  var lis=$('fruit-n').getElementsByTagName('li');
+  var lis=$('fruit-n').getElementsByTagName('a');
       divs=$('fruit-i').getElementsByTagName('div');
 		  tips=$('demo').getElementsByTagName('a');
 
@@ -24,7 +24,7 @@ window.onload=function(){
                     box = document.createElement("div");
                     box.className = "box";
                     box.style.left = left+"px";
-                    box.style.top = top+20+"px";
+                    box.style.top = top+35+"px";
                     box.innerHTML = "<iframe src='http://baike.baidu.com/search?word="+title+"&enc=utf8'></iframe>";
                     demo.appendChild(box);
             }
